@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib as plt
 from ham_tinh import fact
 
 def main():
@@ -11,3 +10,4 @@ def main():
         result = fact(number)
         st.write(f'Kết quả giai thừa của số {number} là {result}')
 main()
+
